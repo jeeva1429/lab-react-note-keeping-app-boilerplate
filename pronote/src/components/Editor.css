@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(70, 70, 237);
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    
+}
+.input-text {
+    height: 350px;
+    width: 450px;
+    border: 2px solid;
+    outline: 0;
+    background-color:rgb(70, 70, 237);
+    color: aliceblue;
+    padding-left: 20px;
+}
+.output-text {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(55, 55, 56);
+    border-radius: 10px;
+    box-shadow:  0px 5px 40px rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    padding-left: 10px;
+}
